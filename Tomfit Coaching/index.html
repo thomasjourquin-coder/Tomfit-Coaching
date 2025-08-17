@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomFit Coaching - Coach Sportif Personnalisé | Cardio, Musculation, Remise en Forme</title>
+    <meta name="description" content="Coaching sportif personnalisé avec TomFit Coaching. Cardio, poids du corps, bodybuilding et rééducation. Progressez vite et en sécurité avec un coach professionnel.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="TomFit Coaching - Coach Sportif Personnalisé">
+    <meta property="og:description" content="Coaching sportif personnalisé pour progresser vite et en sécurité: cardio, poids du corps & bodybuilding, remise en forme et rééducation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tomfit-coaching.fr">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TomFit Coaching",
+      "description": "Coach sportif personnalisé spécialisé en cardio, musculation et remise en forme",
+      "email": "thomas.jourquin@gmail.com",
+      "telephone": "+32495634459",
+      "url": "https://tomfit-coaching.fr",
+      "sameAs": [
+        "https://www.instagram.com/tomfit_coaching"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BE"
+      },
+      "priceRange": "35€-60€"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner hidden" role="dialog" aria-labelledby="cookie-title">
+        <div class="cookie-content">
+            <h3 id="cookie-title">Gestion des cookies</h3>
+            <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn--primary" onclick="acceptCookies()">Accepter</button>
+                <button class="btn btn--outline" onclick="refuseCookies()">Refuser</button>
+                <button class="btn btn--outline" onclick="customizeCookies()">Personnaliser</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">TomFit Coaching</h1>
+                </div>
+                
+                <nav class="nav" role="navigation" aria-label="Navigation principale">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="#accueil" class="nav-link active" data-section="accueil">Accueil</a></li>
+                        <li><a href="#seances-tarifs" class="nav-link" data-section="seances-tarifs">Séances & Tarifs</a></li>
+                        <li><a href="#galerie" class="nav-link" data-section="galerie">Galerie</a></li>
+                        <li><a href="#avis" class="nav-link" data-section="avis">Avis</a></li>
+                        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        
+        <!-- Section Accueil -->
+        <section id="accueil" class="section section--active">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Reprends le contrôle avec TomFit Coaching</h1>
+                        <p class="hero-subtitle">Coaching sportif personnalisé pour progresser vite et en sécurité: cardio, poids du corps & bodybuilding, remise en forme et rééducation.</p>
+                        <div class="hero-cta">
+                            <button class="btn btn--primary btn--lg cta-button" data-section="contact">Réserver une séance</button>
+                            <button class="btn btn--outline btn--lg cta-button" data-section="seances-tarifs">Voir les tarifs</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Expertises -->
+            <section class="expertise">
+                <div class="container">
+                    <h2 class="section-title">Mes expertises</h2>
+                    <div class="expertise-grid">
+                        <div class="card expertise-card">
+                            <div class="card__body">
+                                <h3>Travail cardio</h3>
+                                <p>Planification, HIIT, endurance, travail de zone pour optimiser vos performances cardiovasculaires.</p>
+                            </div>
+                        </div>
+                        <div class="card expertise-card">
+                            <div class="card__body">
+                                <h3>Poids du corps & bodybuilding</h3>
+                                <p>Technique, hypertrophie, progressions adaptées à votre niveau et vos objectifs.</p>
+                            </div>
+                        </div>
+                        <div class="card expertise-card">
+                            <div class="card__body">
+                                <h3>Remise en forme & rééducation</h3>
+                                <p>Reprise en sécurité en lien avec recommandations médicales pour un retour optimal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Méthode -->
+            <section class="method">
+                <div class="container">
+                    <h2 class="section-title">Ma méthode</h2>
+                    <div class="method-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h3>Bilan initial</h3>
+                            <p>Évaluation complète de votre condition physique et de vos antécédents.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h3>Objectifs SMART</h3>
+                            <p>Définition d'objectifs spécifiques, mesurables, atteignables, réalistes et temporels.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h3>Plan progressif</h3>
+                            <p>Programme d'entraînement personnalisé et évolutif selon vos progrès.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <h3>Corrections techniques</h3>
+                            <p>Accompagnement et corrections en temps réel pour optimiser vos mouvements.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <h3>Suivi</h3>
+                            <p>Monitoring régulier de vos progrès et ajustements du programme.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Témoignages -->
+            <section class="testimonials">
+                <div class="container">
+                    <h2 class="section-title">Ce que disent mes clients</h2>
+                    <div class="testimonials-grid">
+                        <div class="card testimonial-card">
+                            <div class="card__body">
+                                <div class="stars">
+                                    <span>★★★★★</span>
+                                </div>
+                                <p>"Excellent coach ! J'ai perdu 8kg en 3 mois avec un suivi personnalisé."</p>
+                                <cite>- Sophie M.</cite>
+                            </div>
+                        </div>
+                        <div class="card testimonial-card">
+                            <div class="card__body">
+                                <div class="stars">
+                                    <span>★★★★★</span>
+                                </div>
+                                <p>"Très professionnel, m'a aidé à reprendre le sport après une blessure."</p>
+                                <cite>- Marc L.</cite>
+                            </div>
+                        </div>
+                        <div class="card testimonial-card">
+                            <div class="card__body">
+                                <div class="stars">
+                                    <span>★★★★★</span>
+                                </div>
+                                <p>"Les séances duo avec mon mari sont parfaites, on progresse ensemble !"</p>
+                                <cite>- Julie K.</cite>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-cta">
+                        <button class="btn btn--outline cta-button" data-section="avis">Voir tous les avis</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- CTA Final -->
+            <section class="cta-section">
+                <div class="container">
+                    <div class="cta-content">
+                        <h2>Prêt à commencer ?</h2>
+                        <p>Prenez rendez-vous dès maintenant pour votre première séance d'évaluation.</p>
+                        <button class="btn btn--primary btn--lg cta-button" data-section="contact">Réserver maintenant</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Section Séances & Tarifs -->
+        <section id="seances-tarifs" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Séances & Tarifs</h1>
+                    <p>Des formules adaptées à vos besoins et votre budget</p>
+                </div>
+                
+                <div class="pricing-tables">
+                    <!-- Tarifs Individuel -->
+                    <div class="pricing-table">
+                        <h2 class="pricing-title">Coaching Individuel</h2>
+                        <div class="card">
+                            <div class="card__body">
+                                <table class="price-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Formule</th>
+                                            <th>Prix par séance</th>
+                                            <th>Conditions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1 séance</td>
+                                            <td><strong>50€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pack 5 séances</td>
+                                            <td><strong>45€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pack 10 séances</td>
+                                            <td><strong>40€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr class="featured-row">
+                                            <td>Pack 20 séances</td>
+                                            <td><strong>35€</strong></td>
+                                            <td>2 entraînements/semaine</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tarifs Duo -->
+                    <div class="pricing-table">
+                        <h2 class="pricing-title">Coaching Duo</h2>
+                        <div class="card">
+                            <div class="card__body">
+                                <table class="price-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Formule</th>
+                                            <th>Prix par séance</th>
+                                            <th>Conditions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1 séance</td>
+                                            <td><strong>60€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pack 5 séances</td>
+                                            <td><strong>55€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pack 10 séances</td>
+                                            <td><strong>50€</strong></td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr class="featured-row">
+                                            <td>Pack 20 séances</td>
+                                            <td><strong>45€</strong></td>
+                                            <td>2 entraînements/semaine</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Inclus -->
+                <div class="included-section">
+                    <h2>Ce qui est inclus</h2>
+                    <div class="included-grid">
+                        <div class="included-item">
+                            <h3>Bilan initial complet</h3>
+                            <p>Évaluation de votre condition physique et définition des objectifs</p>
+                        </div>
+                        <div class="included-item">
+                            <h3>Programme adapté</h3>
+                            <p>Plan d'entraînement personnalisé selon vos besoins et contraintes</p>
+                        </div>
+                        <div class="included-item">
+                            <h3>Conseils non médicaux</h3>
+                            <p>Accompagnement nutritionnel et hygiène de vie</p>
+                        </div>
+                        <div class="included-item">
+                            <h3>Flexibilité</h3>
+                            <p>Séances en salle, à domicile ou en ligne selon vos préférences</p>
+                        </div>
+                        <div class="included-item">
+                            <h3>Annulation libre</h3>
+                            <p>Possibilité d'annuler ou reporter jusqu'à 24h avant</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA Sticky -->
+                <div class="sticky-cta">
+                    <button class="btn btn--primary btn--full-width cta-button" data-section="contact">Réserver maintenant</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Galerie -->
+        <section id="galerie" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Galerie</h1>
+                    <p>Découvrez mes espaces d'entraînement et mes méthodes</p>
+                </div>
+                
+                <!-- Gallery Grid -->
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openLightbox(0)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Espace cardio</h3>
+                                <p>Équipements professionnels pour le travail cardiovasculaire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(1)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Zone musculation</h3>
+                                <p>Salle équipée pour le renforcement musculaire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(2)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Entraînement fonctionnel</h3>
+                                <p>Exercices avec le poids du corps</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(3)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Séance duo</h3>
+                                <p>Entraînement à deux pour plus de motivation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(4)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Coaching extérieur</h3>
+                                <p>Séances en plein air selon la météo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(5)">
+                        <div class="gallery-placeholder">
+                            <div class="placeholder-content">
+                                <h3>Rééducation</h3>
+                                <p>Reprise progressive après blessure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Section -->
+                <div class="video-section">
+                    <h2>Vidéos d'exercices</h2>
+                    <div class="video-grid">
+                        <div class="video-placeholder">
+                            <div class="video-content">
+                                <h3>Technique de squat</h3>
+                                <p>Démonstration des bonnes postures</p>
+                                <div class="video-play-btn">▶️</div>
+                            </div>
+                        </div>
+                        <div class="video-placeholder">
+                            <div class="video-content">
+                                <h3>Circuit HIIT</h3>
+                                <p>Entraînement haute intensité</p>
+                                <div class="video-play-btn">▶️</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox hidden" onclick="closeLightbox()">
+            <div class="lightbox-content">
+                <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fermer">&times;</button>
+                <div class="lightbox-placeholder">
+                    <div id="lightbox-text" class="lightbox-text"></div>
+                </div>
+                <div class="lightbox-nav">
+                    <button onclick="prevImage()" aria-label="Image précédente">‹</button>
+                    <button onclick="nextImage()" aria-label="Image suivante">›</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Avis -->
+        <section id="avis" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Avis clients</h1>
+                    <p>Découvrez les témoignages de mes clients</p>
+                </div>
+                
+                <!-- Liste des avis -->
+                <div class="reviews-list" id="reviews-list">
+                    <!-- Les avis seront ajoutés dynamiquement -->
+                </div>
+                
+                <!-- Formulaire d'avis -->
+                <div class="review-form-section">
+                    <h2>Laisser un avis</h2>
+                    <form class="review-form" id="review-form">
+                        <div class="form-group">
+                            <label for="review-name" class="form-label">Prénom *</label>
+                            <input type="text" id="review-name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Note *</label>
+                            <div class="star-rating" id="star-rating">
+                                <button type="button" class="star" data-rating="1" aria-label="1 étoile">★</button>
+                                <button type="button" class="star" data-rating="2" aria-label="2 étoiles">★</button>
+                                <button type="button" class="star" data-rating="3" aria-label="3 étoiles">★</button>
+                                <button type="button" class="star" data-rating="4" aria-label="4 étoiles">★</button>
+                                <button type="button" class="star" data-rating="5" aria-label="5 étoiles">★</button>
+                            </div>
+                            <input type="hidden" id="rating-value" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="review-comment" class="form-label">Commentaire *</label>
+                            <textarea id="review-comment" class="form-control" rows="4" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="review-consent" required>
+                                <span class="checkmark"></span>
+                                J'accepte que mon avis soit publié et que mes données soient traitées selon la <button type="button" class="link-button cta-button" data-section="politique-confidentialite">politique de confidentialité</button>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary">Publier l'avis</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Contact</h1>
+                    <p>Prêt à commencer votre transformation ? Contactez-moi dès maintenant !</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Formulaire de contact -->
+                    <div class="contact-form-section">
+                        <h2>Réserver une séance</h2>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Nom complet *</label>
+                                <input type="text" id="contact-name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Email *</label>
+                                <input type="email" id="contact-email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-phone" class="form-label">Téléphone *</label>
+                                <input type="tel" id="contact-phone" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-goal" class="form-label">Objectif principal *</label>
+                                <select id="contact-goal" class="form-control" required>
+                                    <option value="">Choisissez votre objectif</option>
+                                    <option value="perte-poids">Perte de poids</option>
+                                    <option value="prise-masse">Prise de masse musculaire</option>
+                                    <option value="remise-forme">Remise en forme</option>
+                                    <option value="reeducation">Rééducation</option>
+                                    <option value="performance">Amélioration des performances</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message</label>
+                                <textarea id="contact-message" class="form-control" rows="4" placeholder="Décrivez votre situation, vos attentes, vos contraintes..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="contact-consent" required>
+                                    <span class="checkmark"></span>
+                                    J'accepte d'être contacté par email ou téléphone et que mes données soient traitées selon la <button type="button" class="link-button cta-button" data-section="politique-confidentialite">politique de confidentialité</button>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width">Envoyer ma demande</button>
+                        </form>
+                        
+                        <div id="contact-success" class="contact-message success-message hidden">
+                            <h3>Message envoyé avec succès !</h3>
+                            <p>Merci pour votre demande. Je vous répondrai sous 24-48h ouvrées.</p>
+                        </div>
+                        
+                        <div id="contact-error" class="contact-message error-message hidden">
+                            <h3>Erreur lors de l'envoi</h3>
+                            <p>Une erreur s'est produite. Veuillez réessayer ou me contacter directement.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Informations de contact -->
+                    <div class="contact-info">
+                        <h2>Mes coordonnées</h2>
+                        
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="mailto:thomas.jourquin@gmail.com" class="contact-link">thomas.jourquin@gmail.com</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Téléphone</h3>
+                            <a href="tel:+32495634459" class="contact-link">0495 63 44 59</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Instagram</h3>
+                            <a href="https://www.instagram.com/tomfit_coaching" target="_blank" rel="noopener" class="contact-link">@tomfit_coaching</a>
+                        </div>
+                        
+                        <div class="response-time">
+                            <p><strong>Réponse sous 24-48h ouvrées</strong></p>
+                            <p>Du lundi au vendredi, 9h-19h</p>
+                        </div>
+                        
+                        <!-- Placeholder Map -->
+                        <div class="map-placeholder">
+                            <div class="map-content">
+                                <h3>Zone d'intervention</h3>
+                                <p>Bruxelles et périphérie</p>
+                                <p><em>Carte Google Maps à intégrer</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Mentions Légales -->
+        <section id="mentions-legales" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Mentions Légales</h1>
+                </div>
+                
+                <div class="legal-content">
+                    <h2>Éditeur du site</h2>
+                    <p><strong>TomFit Coaching</strong><br>
+                    [Adresse professionnelle à compléter]<br>
+                    Email: thomas.jourquin@gmail.com<br>
+                    Téléphone: 0495 63 44 59</p>
+                    
+                    <p><strong>N° d'entreprise:</strong> [À COMPLÉTER]<br>
+                    <strong>N° TVA:</strong> [À COMPLÉTER SI APPLICABLE]</p>
+                    
+                    <h2>Hébergement</h2>
+                    <p><strong>[Nom de l'hébergeur à compléter]</strong><br>
+                    [Adresse de l'hébergeur]<br>
+                    [Téléphone de l'hébergeur]</p>
+                    
+                    <h2>Directeur de publication</h2>
+                    <p>Thomas Jourquin</p>
+                    
+                    <h2>Propriété intellectuelle</h2>
+                    <p>L'ensemble du contenu de ce site (textes, images, vidéos, logos, etc.) est protégé par le droit d'auteur. Toute reproduction, même partielle, sans autorisation écrite préalable est interdite.</p>
+                    
+                    <h2>Responsabilité</h2>
+                    <p>Les informations présentes sur ce site sont données à titre informatif et ne peuvent engager la responsabilité de TomFit Coaching en cas d'erreur ou d'omission. Les conseils donnés ne remplacent pas un avis médical.</p>
+                    
+                    <h2>Liens externes</h2>
+                    <p>Ce site peut contenir des liens vers des sites externes. TomFit Coaching n'est pas responsable du contenu de ces sites tiers.</p>
+                    
+                    <h2>Conditions générales</h2>
+                    <p>L'utilisation de ce site implique l'acceptation des présentes mentions légales. Pour les conditions générales de vente des services de coaching, veuillez nous contacter.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Politique de Confidentialité -->
+        <section id="politique-confidentialite" class="section">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Politique de Confidentialité</h1>
+                </div>
+                
+                <div class="legal-content">
+                    <h2>Données collectées</h2>
+                    <p>Nous collectons les données suivantes :</p>
+                    <ul>
+                        <li><strong>Formulaire de contact:</strong> nom, email, téléphone, objectif, message</li>
+                        <li><strong>Formulaire d'avis:</strong> prénom, note, commentaire</li>
+                        <li><strong>Cookies:</strong> préférences utilisateur, statistiques anonymes</li>
+                    </ul>
+                    
+                    <h2>Finalités du traitement</h2>
+                    <ul>
+                        <li>Répondre à vos demandes de contact et de réservation</li>
+                        <li>Planifier et gérer les séances de coaching</li>
+                        <li>Publier les avis clients avec consentement</li>
+                        <li>Améliorer l'expérience utilisateur du site</li>
+                    </ul>
+                    
+                    <h2>Base légale</h2>
+                    <p>Le traitement de vos données repose sur :</p>
+                    <ul>
+                        <li><strong>Consentement:</strong> pour les avis clients et les cookies non essentiels</li>
+                        <li><strong>Intérêt légitime:</strong> pour répondre aux demandes de contact</li>
+                        <li><strong>Exécution d'un contrat:</strong> pour la gestion des séances</li>
+                    </ul>
+                    
+                    <h2>Durée de conservation</h2>
+                    <p>Vos données sont conservées pendant <strong>18 mois</strong> maximum après notre dernier contact, sauf obligation légale contraire.</p>
+                    
+                    <h2>Vos droits RGPD</h2>
+                    <p>Vous disposez des droits suivants :</p>
+                    <ul>
+                        <li><strong>Accès:</strong> obtenir copie de vos données</li>
+                        <li><strong>Rectification:</strong> corriger vos données</li>
+                        <li><strong>Effacement:</strong> supprimer vos données</li>
+                        <li><strong>Opposition:</strong> vous opposer au traitement</li>
+                        <li><strong>Portabilité:</strong> récupérer vos données dans un format standard</li>
+                        <li><strong>Limitation:</strong> limiter le traitement</li>
+                    </ul>
+                    
+                    <h2>Contact RGPD</h2>
+                    <p>Pour exercer vos droits ou pour toute question relative à la protection des données :<br>
+                    <strong>Email:</strong> <a href="mailto:thomas.jourquin@gmail.com">thomas.jourquin@gmail.com</a></p>
+                    
+                    <h2>Cookies</h2>
+                    <p>Ce site utilise des cookies pour améliorer votre expérience. Vous pouvez gérer vos préférences via la bannière de consentement ou en cliquant sur "Gérer les cookies" en bas de page.</p>
+                    
+                    <h2>Modifications</h2>
+                    <p>Cette politique peut être mise à jour. La date de dernière modification est affichée en bas de cette page.</p>
+                    
+                    <p class="last-updated"><em>Dernière mise à jour : 14 août 2025</em></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TomFit Coaching</h3>
+                    <p>Coaching sportif personnalisé pour votre réussite</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:thomas.jourquin@gmail.com">thomas.jourquin@gmail.com</a></p>
+                    <p><a href="tel:+32495634459">0495 63 44 59</a></p>
+                    <p><a href="https://www.instagram.com/tomfit_coaching" target="_blank" rel="noopener">@tomfit_coaching</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="#" class="cta-button" data-section="mentions-legales">Mentions légales</a></li>
+                        <li><a href="#" class="cta-button" data-section="politique-confidentialite">Politique de confidentialité</a></li>
+                        <li><a href="#" onclick="showCookieSettings()">Gérer les cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TomFit Coaching. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
